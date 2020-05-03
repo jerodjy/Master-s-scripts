@@ -25,7 +25,7 @@
 
 #Only SNPs with an fbk probability higher than the fbk threshold will be considered
 #The default for the missingness flag is 0, if there are no counts in a SNP for at least one population, the script will ignore that SNP.
-#If you want those SNPs to be considered (excluding those SNPs that did not have a single count in any population), write -miss 0
+#If you want those SNPs to be considered (excluding those SNPs that did not have a single count in any population), write -miss 1
 
 #Output files:
 #	Major allele table
